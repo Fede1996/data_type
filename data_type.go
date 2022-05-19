@@ -17,6 +17,11 @@ type SearchResult struct {
 	Results []Result `json:"results"`
 }
 
+type ReportTable struct {
+	Header []string
+	Data   [][]string
+}
+
 type Search struct {
 	Id     int     `json:"id"`
 	Params []Param `json:"params"`
