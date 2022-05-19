@@ -17,11 +17,6 @@ type SearchResult struct {
 	Results []Result `json:"results"`
 }
 
-type ReportTable struct {
-	Header []string
-	Data   [][]string
-}
-
 type Search struct {
 	Id     int     `json:"id"`
 	Params []Param `json:"params"`
@@ -58,12 +53,4 @@ type SearchQuery struct {
 type SplittedParams struct {
 	Required []string
 	Optional []Param
-}
-
-type sqlParam struct {
-	username string
-	password string
-	ip       string
-	port     string
-	schema   string
 }
