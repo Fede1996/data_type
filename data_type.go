@@ -1,4 +1,4 @@
-package data_struct
+package data_type
 
 type SearchList struct {
 	UserID                   string   `json:"user_id"`
