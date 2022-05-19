@@ -1,3 +1,3 @@
-module github.com/Fede1996/data_type/v1.0
+module github.com/Fede1996/data_type
 
 go 1.18
